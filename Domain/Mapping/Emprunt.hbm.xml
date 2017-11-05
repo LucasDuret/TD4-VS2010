@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Domain"
+                   namespace="Domain">
+
+  <class name="Emprunt" table="emprunt">
+    <id name="Id" column="empr_id" type="int">
+      <generator class="native"></generator>
+    </id>
+  </class>
+
+</hibernate-mapping>
